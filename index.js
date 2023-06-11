@@ -2,21 +2,25 @@
 
 'use strict';
 
-const numberOfFilms = +prompt('Сколько фильмов просмотрел', '');
-const PersonalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
+// leasen 1 
 
-const a = prompt('один из последних просмотренных фильмов'),
-    b = prompt('На сколько оцените его?'),
-    c = prompt('Один из последных прссмотренных фильмов'),
-    d = prompt('На сколько оцените его?');
+// const numberOfFilms = +prompt('Сколько фильмов просмотрел', '');
+// const PersonalMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false
+// };
 
-PersonalMovieDB.movies[a] = b;
-PersonalMovieDB.movies[c] = d;
+// const a = prompt('один из последних просмотренных фильмов'),
+//     b = prompt('На сколько оцените его?'),
+//     c = prompt('Один из последных прссмотренных фильмов'),
+//     d = prompt('На сколько оцените его?');
 
-console.log(PersonalMovieDB);
+// PersonalMovieDB.movies[a] = b;
+// PersonalMovieDB.movies[c] = d;
+
+// console.log(PersonalMovieDB);
+
+// leasen 2 
